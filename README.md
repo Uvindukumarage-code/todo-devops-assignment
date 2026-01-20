@@ -15,5 +15,8 @@ Pull Requests & Merge Conflict Resolution <br>- All Members <br>
 # Live Deployment (CD)
 Netlify automatically deploys the website every time the develop branch receives new commits.
 
+![CI Status](https://github.com/Uvindukumarage-code/todo-devops-assignment/actions/workflows/ci.yml/badge.svg)
+
+
 ## Live URL
 [https://chipper-syrniki-8060f1.netlify.app](https://devops-assignmentus.netlify.app/)
