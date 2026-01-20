@@ -2,4 +2,4 @@
 Advanced Git &amp; DevOps Assignment 
 
 ## Live Demo
-https://chipper-syrniki-8060f1.netlify.app
+[https://chipper-syrniki-8060f1.netlify.app](https://devops-assignmentus.netlify.app/)
