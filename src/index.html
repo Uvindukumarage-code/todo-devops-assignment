@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">TodoApp</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Pricing</a>
+      <a href="login.html">Login</a>
+      <a href="login.html" class="btn-primary big">Start Free</a>
+
+      <button id="darkToggle" class="btn-primary">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Organize your work.<br>Simple & Clear.</h1>
+    <p>Manage your daily tasks easily with our smart todo list application.</p>
+    <button class="btn-primary big">Start Free</button>
+  </div>
+
+  <div class="hero-image">
+    <!-- Add your image here -->
+    <img src="hero-image.jpg" alt="Todo App Dashboard" class="hero-img">
+  </div>
+</section>
+
+  <div class="todo-input">
+    <input type="text" id="todoInput" placeholder="Add a new task">
+    <button id="addBtn">Add</button>
+  </div>
+
+  <!-- Filter Buttons -->
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="active">Active</button>
+    <button class="filter-btn" data-filter="completed">Completed</button>
+  </div>
+
+  <!-- Task Counter -->
+  <div class="task-counter">
+    <span id="taskCount">0 tasks remaining</span>
+  </div>
+
+  <ul id="todoList"></ul>
+   </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <h2>Why Choose Our Todo App?</h2>
+
+    <div class="feature-cards">
+      <div class="card">
+        <h3>Simple</h3>
+        <p>Easy to use interface to manage your daily tasks.</p>
+      </div>
+
+      <div class="card">
+        <h3>Fast</h3>
+        <p>Add, complete and delete tasks instantly.</p>
+      </div>
+
+      <div class="card">
+        <h3>Responsive</h3>
+        <p>Works smoothly on desktop and mobile devices.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Section -->
+  <section class="image-section">
+    <div class="image-text">
+      <h2>Stay Focused Every Day</h2>
+      <p>
+        Organize your tasks, track your progress and achieve more with our
+        smart todo app.
+      </p>
+    </div>
+
+    <div class="image-box">
+      <img src="todo.jpg" alt="Todo app illustration">
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2>Start Organizing Your Life Today</h2>
+    <button class="btn-primary big">Get Started Free</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>ITBNM-2313-0046</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
