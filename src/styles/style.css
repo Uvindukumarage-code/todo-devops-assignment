@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -343,3 +344,26 @@ body.dark input {
   border-color: #4b5563;
 }
 
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px;
+}
+
+button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+li {
+  margin: 5px 0;
+}
