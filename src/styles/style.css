@@ -319,3 +319,27 @@ footer {
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
+
+body.dark {
+  background: #111827;
+  color: #f9fafb;
+}
+
+body.dark .navbar,
+body.dark .features {
+  background: #1f2933;
+}
+
+body.dark .card,
+body.dark #todoList li,
+body.dark .task-counter {
+  background: #374151;
+  color: #f9fafb;
+}
+
+body.dark input {
+  background: #1f2933;
+  color: white;
+  border-color: #4b5563;
+}
+
