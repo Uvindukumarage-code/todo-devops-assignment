@@ -95,3 +95,4 @@ darkToggle.addEventListener("click", () => {
   }
 });
 
+// Dark mode toggle end
