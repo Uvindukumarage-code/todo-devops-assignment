@@ -21,4 +21,4 @@ Netlify automatically deploys the website every time the develop branch receives
 
 
 # Live URL
-[https://chipper-syrniki-8060f1.netlify.app](https://devops-assignmentus.netlify.app/)
+https://todo-devops-assignment-nine.vercel.app
