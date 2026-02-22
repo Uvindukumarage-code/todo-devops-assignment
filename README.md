@@ -22,3 +22,30 @@ Netlify automatically deploys the website every time the develop branch receives
 
 # Live URL
 https://todo-devops-assignment-nine.vercel.app
+
+
+# Docker Containerization
+This project has been containerised using Docker to ensure consistent deployment across development and production environments. The application is served using an Nginx web server inside a lightweight Alpine-based container.<br>
+The containerised version provides identical functionality to the original deployment while improving portability and environment consistency.
+
+# Architecture
+The application uses a single-container architecture because it is a static frontend application that does not require a backend service or database.
+Base Image: nginx:alpine<br>
+Web Server: Nginx<br>
+Port Exposure: 80 (mapped to 3000 on host)<br><br>
+Health Check: Enabled for service reliability<br>
+This approach ensures,<br> 
+Lightweight image size<br>
+Reduced attack surface<br>
+Fast startup time<br>
+Portability across environments
+
+# Image Optimization
+The Alpine-based Nginx image was selected to reduce image size and improve performance. Default Nginx files are removed during build to minimise unnecessary content inside the container.
+
+# Security Considerations
+
+Minimal base image (Alpine Linux)<br>
+Limited exposed ports<br>
+Static file serving only<br>
+No backend attack surface
