@@ -32,8 +32,45 @@ This project has been containerised using Docker to ensure consistent deployment
 
 The containerised version provides identical functionality to the original deployment while improving portability, consistency, and environment isolation.
 
+## Prerequisites
+
+Before running the project, ensure the following are installed:
+
+ - Docker (version 20+)
+ - Docker Compose (v2+)
+
+Verify installation:
+
+-docker --version<br>
+-docker compose version
 
 
+## Build and Run Instructions
+Option 1 – Using Docker Compose (Recommended)
+
+ - Build and start the container:
+
+-docker compose up --build
+
+ - Run in detached mode:
+
+-docker compose up -d --build
+
+
+## Accessing the Application
+
+After successful startup, open:
+
+-http://localhost:3000
+
+The container exposes port 80 internally and maps it to port 3000 on the host machine.
+
+
+## Stopping the Application
+
+To stop and remove the container:
+
+-docker compose down
 ## Architecture
 
 The application adopts a single-container architecture. Since the project is a static frontend application, it does not require a backend service or database layer. Therefore, separating services into multiple containers would introduce unnecessary complexity.
